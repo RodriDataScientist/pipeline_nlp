@@ -117,22 +117,20 @@ El usuario puede configurar:
 ## 🛠️ Estructura del proyecto
 
 ```
-
+data/
 text_reporter/
 │
-├── helpers.py               # Wordcloud, n-gramas, UMAP, representantes
-├── utils.py                 # HTML template, paletas y modelos
+├── helpers.py                # Wordcloud, n-gramas, UMAP, representantes
+├── utils.py                  # HTML template, paletas y modelos
 │
-├── preprocessing.py         # Limpieza y lematización
-├── embeddings.py            # Generación de embeddings
-├── topic_model.py           # Entrenamiento BERTopic
-├── report_generator.py      # Construcción del reporte HTML
+├── text_preprocessing.py     # Limpieza y lematización
+├── embeddings_generator.py   # Generación de embeddings
+├── topic_modeling.py         # Entrenamiento BERTopic
+├── report_generator.py       # Construcción del reporte HTML
 │
-└── main.py                  # Ejecución orquestada del pipeline
+└── main.py                   # Ejecución orquestada del pipeline
 
 ````
-
-*(Los nombres pueden variar según tu organización actual, pero el README refleja las funcionalidades reales del código.)*
 
 ---
 
