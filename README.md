@@ -117,8 +117,8 @@ El usuario puede configurar:
 ## 🛠️ Estructura del proyecto
 
 ```
-data/
-reports/
+data/                         # Carpeta que almacena archivos de ejemplo ejecutables con los comandos de ejemplo
+reports/                      # Carpeta donde se almacenan los embbedings y reportes generados
 text_reporter/
 │
 ├── helpers.py                # Wordcloud, n-gramas, UMAP, representantes
@@ -130,7 +130,8 @@ text_reporter/
 ├── report_generator.py       # Construcción del reporte HTML
 │
 
-main.py                   # Ejecución orquestada del pipeline
+commands_example.txt          # Comandos de ejemplo para probar el funcionamiento del proyecto
+main.py                       # Ejecución orquestada del pipeline
 
 ````
 
