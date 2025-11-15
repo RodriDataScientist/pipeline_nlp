@@ -1,5 +1,3 @@
-# ✅ **README.md para tu repositorio**
-
 # 🧠 Sistema de Análisis de Texto con Modelado de Tópicos y Reporte Interactivo
 
 Este proyecto implementa un pipeline completo de **procesamiento, análisis y visualización de texto**, a partir de un archivo CSV.  
