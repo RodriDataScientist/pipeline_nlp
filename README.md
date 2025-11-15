@@ -31,7 +31,13 @@ El pipeline incluye:
 - **Español o multilingüe:** modelos spaCy (`es_core_news_sm`, `xx_ent_wiki_sm`)  
 - Stopwords personalizadas según el idioma  
 
-El resultado final se almacena en la columna: processed_text
+El resultado final se almacena en la columna:
+
+```
+
+processed_text
+
+```
 
 ---
 
@@ -110,6 +116,8 @@ El usuario puede configurar:
 
 ## 🛠️ Estructura del proyecto
 
+```
+
 text_reporter/
 │
 ├── helpers.py               # Wordcloud, n-gramas, UMAP, representantes
@@ -121,6 +129,10 @@ text_reporter/
 ├── report_generator.py      # Construcción del reporte HTML
 │
 └── main.py                  # Ejecución orquestada del pipeline
+
+````
+
+*(Los nombres pueden variar según tu organización actual, pero el README refleja las funcionalidades reales del código.)*
 
 ---
 
