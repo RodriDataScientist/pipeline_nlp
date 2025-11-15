@@ -118,6 +118,7 @@ El usuario puede configurar:
 
 ```
 data/
+reports/
 text_reporter/
 │
 ├── helpers.py                # Wordcloud, n-gramas, UMAP, representantes
@@ -128,7 +129,8 @@ text_reporter/
 ├── topic_modeling.py         # Entrenamiento BERTopic
 ├── report_generator.py       # Construcción del reporte HTML
 │
-└── main.py                   # Ejecución orquestada del pipeline
+
+main.py                   # Ejecución orquestada del pipeline
 
 ````
 
