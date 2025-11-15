@@ -1,0 +1,7 @@
+python main.py -i data/docs_can.csv -c prompt -l en -t "Reporte Canadá" --palette zesty --colorblind protanopia --topic-ablation --show-outliers --ngrams 20
+
+python main.py -i data/docs_usa.csv -c prompt -l en -t "Reporte USA" --palette retro --colorblind protanopia --topic-ablation --show-outliers --ngrams 20
+
+python main.py -i data/docs_mex.csv -c prompt -l en -t "Reporte México" --palette retro --colorblind deuteranopia --topic-ablation --show-outliers --ngrams 20
+
+python main.py -i data/reseñas_Six_Flags_México.csv -c Review -l es -t "Reporte Six Flags" --palette elegant --colorblind protanopia --topic-ablation --show-outliers --ngrams 20
