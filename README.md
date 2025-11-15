@@ -136,28 +136,6 @@ main.py                   # Ejecución orquestada del pipeline
 
 ---
 
-## ▶️ Ejemplo de uso
-
-```python
-import pandas as pd
-from text_reporter.pipeline import preprocess_dataframe, train_topic_model, build_report
-from text_reporter.embeddings import generate_embeddings
-
-df = pd.read_csv("mis_datos.csv")
-
-# 1. Preprocesamiento
-df, model_name = preprocess_dataframe(df, text_column="comentarios", lang="multi")
-
-# 2. Embeddings
-embeddings = generate_embeddings(df, text_column="processed_text", model_name=model_name)
-
-# 3. Modelado de tópicos
-topic_model, df = train_topic_model(df, embeddings_path="embeddings.npy", language="multi")
-
-# 4. Reporte final
-build_report(df, embeddings, title="Reporte de Análisis", output_path="reporte_final.html")
-````
-
 ---
 
 ## 📦 Requisitos
@@ -181,4 +159,4 @@ wordcloud
 
 ## 🙌 Autor
 
-Rodrigo Cervantes – Proyecto académico / profesional de análisis textual con Python.
+Rodrigo Fabián Cervantes Martínez – Proyecto académico de análisis textual con Python.
